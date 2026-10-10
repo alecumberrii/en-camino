@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=77c0aca8-c55d-44cc-9b1a-b59825c4b36c
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=77c0aca8-c55d-44cc-9b1a-b59825c4b36c
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>En camino</title>
+<script>
+/* enlaces antiguos a días de Camerún 2026 (en-camino.netlify.app/#d-…) */
+if(location.hash.indexOf('#d-')===0)location.replace('/camerun-2026/'+location.hash);
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:#fff;color:#000;
+  font-family:"EB Garamond",Garamond,"Times New Roman",Georgia,serif;
+  font-size:clamp(19px,2.3vw,21px);line-height:1.62;font-feature-settings:"liga","onum"}
+@media (min-width:900px){body{font-size:23px}}
+header{max-width:34rem;margin:0 auto;padding:5rem 1.5rem 3.5rem;text-align:center}
+h1{font-weight:400;font-size:clamp(2.2rem,7vw,3.2rem);line-height:1.1;margin:0;letter-spacing:.01em}
+.trips{max-width:44rem;margin:0 auto 5rem;padding:0 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+@media (max-width:560px){.trips{grid-template-columns:1fr;gap:2.5rem}}
+.trip{display:block;color:#000;text-decoration:none;text-align:center}
+.trip .frame{display:block;width:100%;aspect-ratio:3/2;background:#F1F1EE;overflow:hidden}
+.trip img{display:block;width:100%;height:100%;object-fit:cover;box-shadow:0 1px 3px rgba(0,0,0,.12),0 0 1px rgba(0,0,0,.08)}
+.trip .t{display:block;margin-top:.7rem;font-style:italic;font-size:1.25em;line-height:1.2}
+.trip .s{display:block;margin-top:.2rem;font-size:.85em;color:#555;font-style:italic}
+a.trip:hover .t{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.2em}
+.trip.soon{cursor:default}
+.trip.soon .t{color:#555}
+</style>
+</head>
+<body>
+<header><h1>En camino</h1></header>
+<nav class="trips" aria-label="Viajes">
+  <a class="trip" href="camerun-2026/"><span class="frame"><img src="camerun-2026/fotos/p5.webp" alt="Niños jugando al fútbol en un campo de tierra roja sobre Yaundé"></span><span class="t">Camerún 2026</span></a>
+  <a class="trip" href="camerun-2022/"><span class="frame"><img src="camerun-2022/fotos/intro.jpg" style="object-position:50% 38%" alt="Niños con los brazos alzados junto a una puerta, con el patio del colegio al fondo"></span><span class="t">Camerún 2022</span></a>
+</nav>
+</body>
+</html>
